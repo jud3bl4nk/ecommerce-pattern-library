@@ -1,0 +1,4 @@
+permalink: pretty
+theme: jekyll_patternbot
+patternbot:
+  font_url: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700&display=swap" rel="stylesheet">

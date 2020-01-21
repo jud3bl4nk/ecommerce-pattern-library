@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #0F0000;
+  --color-primary-light: #4D4747;
+  --color-secondary: #8D6601;
+  --color-secondary-light: #FABC28;
+  --color-tertiary: #0053A2;
+  --color-tertiary-light: #4D9FEC;
+  --color-accent: #533A02;
+  --color-neutral-beige: #FFFAED;
+  --color-whatever: #4D4747;
+  --font-primary: futura-pt-bold, sans-serif;
+  --font-secondary: "Georgia", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
