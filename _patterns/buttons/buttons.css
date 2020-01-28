@@ -6,5 +6,28 @@
 
 .btn:hover {
   background-color: var(--color-neutral-beige);
-  border-color: var(--color-primary-dark)
+  border-color: var(--color-primary-dark);
+  color: var(--color-primary-dark);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+.btn-ghost:hover {
+  border-color: var(--color-secondary);
+  color: var(--color-primary-dark);
+}
+
+.btn-light {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: var(--color-neutral-beige)
+}
+
+.btn-light:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-whatever);
+  color: var(--color-neutral-beige)
 }
