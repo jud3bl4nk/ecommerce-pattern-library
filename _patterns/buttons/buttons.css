@@ -5,22 +5,25 @@
 }
 
 .btn:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-pink));
   border-color: var(--color-pink-dark);
-  color: var(--color-pink-dark);
+  color: var(--color-accent);
 }
 
 .btn:focus {
-  border-color: transparent;
+  background-color: var(--color-pink));
+  border-color: var(--color-pink-dark);
+  color: var(--color-accent);
 }
 
 .btn-ghost {
-  background-color: transparent;
+  background-color: var(--color-accent);
   color: var(--color-primary);
 }
 
 .btn-ghost:hover {
-  border-color: var(--color-secondary);
+  background-color: var(--color-pink));
+  border-color: var(--color-pink-dark);
   color: var(--color-accent);
 }
 

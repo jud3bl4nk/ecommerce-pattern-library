@@ -11,6 +11,6 @@
 }
 
 .milk-bg {
-  background-color: linear-gradient(80deg, var(--color-tertiary-light), var(--color-another-blue));
+  background-image: linear-gradient(80deg, var(--color-tertiary-light), var(--color-another-blue));
   border-color: var(--color-tertiary);
 }
