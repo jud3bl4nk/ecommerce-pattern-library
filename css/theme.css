@@ -1,14 +1,16 @@
 :root {
   --color-primary: #fff;
-  --color-primary-light: #4D4747;
+  --color-primary-light: rgba(255,255,255,0.80);
   --color-primary-dark:#0F0000;
   --color-secondary: #8D6601;
   --color-secondary-light: #FABC28;
   --color-tertiary: #0053A2;
   --color-tertiary-light: #4D9FEC;
-  --color-accent: #533A02;
-  --color-neutral-beige: #FFFAED;
-  --color-whatever: #4D4747;
+  --color-another-blue:rgba(183, 220, 255, 1);
+  --color-accent: #350012;
+  --color-neutral-beige: #F9EACA;
+  --color-pink: #E04B8E;
+  --color-pink-dark:#A31F55;
   --font-primary: futura-pt-bold, sans-serif;
   --font-secondary: "Georgia", serif;
 }

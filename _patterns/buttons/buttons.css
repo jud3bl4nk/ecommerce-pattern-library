@@ -5,9 +5,13 @@
 }
 
 .btn:hover {
-  background-color: var(--color-neutral-beige);
-  border-color: var(--color-primary-dark);
-  color: var(--color-primary-dark);
+  background-color: var(--color-primary);
+  border-color: var(--color-pink-dark);
+  color: var(--color-pink-dark);
+}
+
+.btn:focus {
+  border-color: transparent;
 }
 
 .btn-ghost {
@@ -17,17 +21,17 @@
 
 .btn-ghost:hover {
   border-color: var(--color-secondary);
-  color: var(--color-primary-dark);
+  color: var(--color-accent);
 }
 
 .btn-light {
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
-  color: var(--color-neutral-beige)
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-accent);
 }
 
 .btn-light:hover {
-  background-color: var(--color-accent);
-  border-color: var(--color-whatever);
-  color: var(--color-neutral-beige)
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-accent);
 }
