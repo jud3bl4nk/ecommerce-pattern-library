@@ -1,28 +1,28 @@
 .btn {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-light);
   border-color: var(--color-accent);
   color: var(--color-primary-dark);
 }
 
 .btn:hover {
-  background-color: var(--color-pink));
-  border-color: var(--color-pink-dark);
-  color: var(--color-accent);
-}
-
-.btn:focus {
-  background-color: var(--color-pink));
-  border-color: var(--color-pink-dark);
-  color: var(--color-accent);
-}
-
-.btn-ghost {
-  background-color: var(--color-accent);
+  background-color: var(--color-pink-dark);
+  border-color: var(--color-pink);
   color: var(--color-primary);
 }
 
+.btn:focus {
+  background-color: var(--color-pink);
+  border-color: var(--color-pink-dark);
+  color: var(--color-primary);
+}
+
+.btn-ghost {
+  background-color: var(--color-primary);
+  color: var(--color-accent);
+}
+
 .btn-ghost:hover {
-  background-color: var(--color-pink));
+  background-color: var(--color-pink);
   border-color: var(--color-pink-dark);
   color: var(--color-accent);
 }
@@ -30,7 +30,7 @@
 .btn-light {
   background-color: transparent;
   border-color: transparent;
-  color: var(--color-accent);
+  color: var(--color-primary-dark);
 }
 
 .btn-light:hover {

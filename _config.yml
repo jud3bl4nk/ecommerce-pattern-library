@@ -6,10 +6,10 @@ patternbot:
     A natural solution.
   font_url: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700&display=swap"
   colors:
-    background: "--color-secondary-light"
+    background: "--color-primary-light"
     accent: "--color-primary-dark"
     patterns:
-      brand.logos: "--color-primary-light"
+      brand.logos: "--color-secondary-light"
   rationales:
     typefaces.secondary: |
       PT Sans Narrow is only to be used for highlight text: headings, buttons, banners, etc.
