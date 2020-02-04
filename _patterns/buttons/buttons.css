@@ -33,5 +33,5 @@
 .btn-light:hover {
   background-color: transparent;
   border-color: transparent;
-  color: var(--color-accent);
+  color: var(--color-pink-dark);
 }
