@@ -20,7 +20,7 @@
   --gradient-gold:linear-gradient(-190deg, var(--color-secondary), var(--color-secondary-light));
   --gradient-black: linear-gradient(-190deg, var(--color-primary-dark), var(--color-grey-comfortable));
   --font-primary: futura-pt-bold, sans-serif;
-  --font-secondary: "Georgia", serif;
+  --font-secondary: Georgia, serif;
 }
 
 html {
