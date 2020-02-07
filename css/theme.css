@@ -1,16 +1,24 @@
 :root {
   --color-primary: #fff;
-  --color-primary-light: rgba(255,255,255,0.80);
+  --color-primary-light: rgba(255,255,255,0.70);
   --color-primary-dark:#0F0000;
   --color-secondary: #8D6601;
   --color-secondary-light: #FABC28;
   --color-tertiary: #0053A2;
   --color-tertiary-light: #4D9FEC;
   --color-another-blue:rgba(183, 220, 255, 1);
+  --color-milk-gradient-one: rgba(124, 219, 255, 1);
+  --color-milk-gradient-two: rgba(213, 244, 255, 1);
   --color-accent: #350012;
-  --color-neutral-beige: #F9EACA;
-  --color-pink: #E04B8E;
+  --color-pink-light: #FFD9E6;
+  --color-pink: #FF2C68;
   --color-pink-dark:#A31F55;
+  --color-grey-comfortable: rgba(78, 78, 78, 1);
+  /* @var Gradient for whenever */
+  --gradient-blue: linear-gradient(-190deg, var(--color-tertiary-light), var(--color-another-blue));
+  --gradient-milk: linear-gradient(-190deg, var(--color-milk-gradient-two), var(--color-milk-gradient-one);
+  --gradient-gold:linear-gradient(-190deg, var(--color-secondary), var(--color-secondary-light));
+  --gradient-black: linear-gradient(-190deg, var(--color-primary-dark), var(--color-grey-comfortable));
   --font-primary: futura-pt-bold, sans-serif;
   --font-secondary: "Georgia", serif;
 }

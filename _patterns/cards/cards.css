@@ -10,7 +10,21 @@
   background-color: var(--color-primary-light);
 }
 
-.milk-bg {
-  background-image: linear-gradient(80deg, var(--color-tertiary-light), var(--color-another-blue));
+.simple-bg {
+  background-image: var(--gradient-blue);
   border-color: var(--color-tertiary);
+}
+
+.milk-bg {
+  background-image: var(--gradient-milk);
+}
+
+.honey-bg {
+  background-image: var(--gradient-gold);
+  border-color: var(--color-secondary);
+}
+
+.merch-bg {
+  background-image: var(--gradient-black);
+  border-color: #000;
 }

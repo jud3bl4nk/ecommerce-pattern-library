@@ -3,11 +3,11 @@ theme: jekyll_patternbot
 patternbot:
   title: "Milk & Honey"
   description: |
-    A natural solution.
+    Milk & Honey offer natural solutions for life's hardest problems.
   font_url: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700&display=swap"
   colors:
-    background: "--color-primary-light"
-    accent: "--color-primary-dark"
+    background: "--color-another-blue"
+    accent: "--gradient-gold"
     patterns:
       brand.logos: "--color-secondary-light"
   rationales:
