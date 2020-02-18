@@ -26,3 +26,12 @@
 html {
   font-family: var(--font-primary);
 }
+
+a {
+  font-family: var(--font-secondary);
+  background-color: var(--color-primary-dark);
+}
+mark {
+  font-family: var(--font-secondary);
+
+}
