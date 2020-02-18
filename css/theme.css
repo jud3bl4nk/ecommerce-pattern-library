@@ -28,10 +28,14 @@ html {
 }
 
 a {
-  font-family: var(--font-secondary);
-  background-color: var(--color-primary-dark);
+  font-family: var(--font-primary);
+  color: var(--color-primary-dark);
+  text-decoration: none;
 }
 mark {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
+}
 
+q {
+  font-style: italic;
 }
