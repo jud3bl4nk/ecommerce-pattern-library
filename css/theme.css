@@ -29,13 +29,15 @@ html {
 
 a {
   font-family: var(--font-primary);
-  color: var(--color-primary-dark);
+  color: var(--color-pink-dark);
   text-decoration: none;
 }
+
 mark {
   font-family: var(--font-primary);
+  background-color: var(--color-pink-light);
 }
 
-q {
+q, dfn {
   font-style: italic;
 }

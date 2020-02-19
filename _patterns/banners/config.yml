@@ -1,0 +1,19 @@
+title: "Banners"
+description: |
+A banner is a section of highlighted information, usually to let the user know a task is complete, or that an action has been taken. Banners are for landing pages, and to acknoledge completion of an action.
+
+patterns:
+    featured:
+      title: "Featured"
+      description: |
+      Used to highlight products which are new, on sale, or limited offer.
+
+      newsletter:
+        title: "Newsletter"
+        description: |
+        A banner which reminds the user to sign up for newsletters at the end of an action.
+
+        call-to-action:
+          title: "call-to-action"
+          description: |
+          Invites user to act on advertising. Always on landing page.
