@@ -1,0 +1,12 @@
+title: "Footer"
+description: |
+A place where footers (specifically their styles) come to die.
+
+patterns:
+  social-icons:
+    description: |
+    Links users to our various social media.
+    fields:
+  footer-links:
+    description: |
+    Links within links which lead to pages of links.
