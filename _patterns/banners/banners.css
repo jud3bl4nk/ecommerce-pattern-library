@@ -3,6 +3,7 @@ background-position: center;
 background-size: cover;
 position: relative;
 background-repeat: no-repeat;
+height: 20em;
 }
 
 .hero-text {
