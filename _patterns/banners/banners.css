@@ -8,8 +8,8 @@ background-repeat: no-repeat;
 .hero-text {
   color: var(--color-primary-dark);
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 1%;
+  left: 1%;
 }
 
 .negative {
@@ -37,4 +37,8 @@ background-repeat: no-repeat;
 .merch-bg {
   background-image: var(--gradient-black);
   border-color: #000;
+}
+
+.holder {
+  overflow: hidden;
 }
