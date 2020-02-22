@@ -1,0 +1,40 @@
+.hero-image {
+background-position: center;
+background-size: cover;
+position: relative;
+background-repeat: no-repeat;
+}
+
+.hero-text {
+  color: var(--color-primary-dark);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.negative {
+  background-color: transparent;
+}
+
+.text-fill {
+  background-color: var(--color-primary-light);
+}
+
+.simple-bg {
+  background-image: var(--gradient-blue);
+  border-color: var(--color-tertiary);
+}
+
+.milk-bg {
+  background-image: var(--gradient-milk);
+}
+
+.honey-bg {
+  background-image: var(--gradient-gold);
+  border-color: var(--color-secondary);
+}
+
+.merch-bg {
+  background-image: var(--gradient-black);
+  border-color: #000;
+}
