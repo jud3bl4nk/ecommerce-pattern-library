@@ -1,5 +1,3 @@
-
-
 .pagination a {
   color: var(--color-primary-dark);
   text-decoration: none;
@@ -16,4 +14,16 @@ background-color: var(--color-grey-comfortable);
 
 .bread-crubs {
   color: var(--color-primary-dark);
+}
+
+.container {
+  overflow: hidden;
+}
+
+.filterDiv {
+  display: none;
+}
+
+#milk:target {
+  display: block;
 }
