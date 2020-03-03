@@ -1,0 +1,19 @@
+.navbar {
+  overflow: hidden;
+  background-color: var(--color-primary-dark);
+}
+
+.navbar a {
+  color: #fff;
+  transition: background-color, color .3s;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  background-color: var(--color-pink);
+    color: var(--color-primary-light);
+  }
+
+.navbar a:active {
+  color: var(--color-pink)
+}
