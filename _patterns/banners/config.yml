@@ -5,5 +5,12 @@ description: |
 patterns:
   front-banner:
     title: "call-to-action"
-    description: |
-      Invites user to act on advertising. Always on landing page.
+    fields:
+      name: heading
+      type: string
+      example: "Milk & Honey"
+      name: text
+      type: string
+      example: God's chosen product
+      description: |
+        Invites user to act on advertising. Always on landing page.

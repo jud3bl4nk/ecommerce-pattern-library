@@ -27,3 +27,7 @@ background-color: var(--color-grey-comfortable);
 #milk:target {
   display: block;
 }
+
+.butts {
+  display: inline;
+}
