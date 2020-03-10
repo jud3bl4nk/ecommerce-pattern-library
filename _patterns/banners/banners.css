@@ -12,7 +12,8 @@
 }
 
 .text-fill {
-  background-color: var(--color-primary-light);
+  color: var(--color-primary-light);
+  background-color: var(--color-grey-background);
 }
 
 .simple-bg {
