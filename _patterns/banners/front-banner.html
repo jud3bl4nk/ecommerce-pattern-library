@@ -1,8 +1,10 @@
-<div class="text-center negative holder">
+<div class=" negative holder relative">
 <img class="img-flex" src="/images/main-hands.jpg" alt="hands">
 <div class="hero-text text-fill island-2">
-  <h1>Milk & Honey</h1>
-  <p>insert text</p>
-  {% pattern buttons/ghost %}
+  <h1 class="banner-title yotta push-1-2">{{include.heading}}</h1>
+  <p class="banner-info exa italic max-length-no-center">{{include.text}}</p>
+  {% if include.button_url %}
+    {% pattern buttons/ghost url=include.button_url text=include.button_text %}
+  {% endif %}
 </div>
 </div>

@@ -22,6 +22,6 @@ patternbot:
       output: true
   default:
     - scope:
-      path: _products
-    values:
-      layout: product
+        path: _products
+      values:
+        layout: product

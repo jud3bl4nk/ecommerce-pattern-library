@@ -1,18 +1,18 @@
 <ul class="navbar list-group-inline list-group">
-<li style="float:left" class="gutter active">
-<a href="#">Home</a>
+
+<li style="float:right" class="gutter" {% if page.highlight_nav == 'Home' %}current{% endif %}>
+    {% pattern buttons/company-btn %}
 </li>
-<li style="float:right" class="gutter">
-<a href="#">Home</a>
+<li style="float:right" class="gutter relative" {% if page.highlight_nav == 'Search' %}current{% endif %}>
+<input class="search-bar" type="search" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="What's Up?">
+<div class="search-button">
+  {% pattern buttons/magnifier-btn %}
+</div>
 </li>
-<li style="float:right" class="gutter">
-<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="What's Up?">
-{% pattern buttons/magnifier-btn %}
+<li style="float:right" class="gutter" {% if page.highlight_nav == 'Log-in' %}current{% endif %}>
+<a href="Log-in">Log In</a>
 </li>
-<li style="float:right" class="gutter">
-<a href="#">LOG IN</a>
-</li>
-<li style="float:right" class="gutter">
-<a href="#">SHOP</a>
+<li style="float:right" class="gutter" {% if page.highlight_nav == 'Shop' %}current{% endif %}>
+<a href="#">Shop</a>
 </li>
 </ul>

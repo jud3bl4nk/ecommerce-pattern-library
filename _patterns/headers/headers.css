@@ -17,3 +17,15 @@
 .navbar a:active {
   color: var(--color-pink)
 }
+
+input[type=search], select, textarea {
+  width: 100%;
+}
+
+.search-button {
+  color: var(--color-primary-dark);
+  position: absolute;
+  top:-.2em;
+  right:-.5em;
+  z-index: 1000;
+}

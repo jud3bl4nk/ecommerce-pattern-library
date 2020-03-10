@@ -4,13 +4,17 @@ description: |
 
 patterns:
   front-banner:
-    title: "call-to-action"
     fields:
-      name: heading
-      type: string
-      example: "Milk & Honey"
-      name: text
-      type: string
-      example: God's chosen product
-      description: |
-        Invites user to act on advertising. Always on landing page.
+      - name: heading
+        type: string
+        example: "Brilling, stunning, bright"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: button_url
+        example: "/cream/"
