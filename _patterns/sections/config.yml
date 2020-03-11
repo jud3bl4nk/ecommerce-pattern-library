@@ -1,0 +1,20 @@
+title: "Sections"
+description: |
+  A section is a grouping of cards in a website. Another way to define a section would be an area devoted to a specific topic in a website.
+
+patterns:
+  milk-info:
+    fields:
+      - name: heading
+        type: string
+        example: "Brilling, stunning, bright"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: button_url
+        example: "/cream/"

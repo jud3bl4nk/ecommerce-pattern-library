@@ -14,7 +14,7 @@
   --color-pink: #FF2C68;
   --color-pink-dark:#A31F55;
   --color-grey-comfortable: rgba(78, 78, 78, 1);
-  --color-grey-background: rgba(78, 78, 78, .6);
+  --color-grey-background: rgba(0, 0, 0, .8);
   /* @var Gradient for whenever */
   --gradient-blue: linear-gradient(-190deg, var(--color-tertiary-light), var(--color-another-blue));
   --gradient-milk: linear-gradient(-190deg, var(--color-milk-gradient-two), var(--color-milk-gradient-one));
