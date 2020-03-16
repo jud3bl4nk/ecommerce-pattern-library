@@ -1,0 +1,19 @@
+patterns:
+  cards:
+    fields:
+      - name: heading
+      type: string
+      example: "Milk is Nurishing", The cleaning properties of milk don't lie, 20 day return policy"
+      - name: text
+      type: string
+      example: "There are many examples of this property. Probably they will all have multiple sentences, but that's not a guarantee."
+      - name: button_text
+      type: string
+      example: "Shop"
+      required: false
+      - name: button_url
+      type: button_url
+      example: "/cream/"
+      - name: image
+      type: string
+      example: "/images/milk-group-rect.jpg"

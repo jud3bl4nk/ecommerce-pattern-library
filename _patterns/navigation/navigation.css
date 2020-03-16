@@ -28,6 +28,14 @@ background-color: var(--color-grey-comfortable);
   display: block;
 }
 
+#honey:target {
+  display: block;
+}
+
+#merch:target {
+  display: block;
+}
+
 .butts {
   display: inline;
 }
