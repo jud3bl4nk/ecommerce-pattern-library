@@ -1,10 +1,10 @@
-<div class="unit sx-1 s-1 m-1-2 l-1-2">
-  <h2>{{insert.heading}}</h2>
-  <p>{{insert.text}}</p>
-  <form action="/cart.php">
+<div class="unit sx-1 s-1 m-1-2 l-1-2 island">
+  <h2>{{include.heading}}</h2>
+  <p>{{include.text}}</p>
+  <form class="push-r" action="/cart.php">
     <label class="label-inline" for="quantity">Qnt:</label>
     <input class="push" type="number" id="quantity" name="quantity" min="1" max="5">
-  <input class="btn" type="submit" {% pattern buttons/basic button_url="tbd" %}
+  <input class="btn text-center" type="submit" {% pattern buttons/basic button_url="tbd" %}
 </form>
 {% pattern buttons/light button_text="cancel" button_url="#products" %}
 </div>
