@@ -1,5 +1,12 @@
 .card {
-  background-color: #fff;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+.card:hover {
+  border-color: var(--color-grey-border);
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
 }
 
 .negative {
@@ -27,4 +34,8 @@
 .merch-bg {
   background-image: var(--gradient-black);
   border-color: #000;
+}
+
+.shadow {
+  box-shadow: 10px 10px 8px var(--color-grey-border);
 }

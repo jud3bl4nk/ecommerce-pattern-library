@@ -16,4 +16,10 @@ patterns:
       example: "/cream/"
       - name: image
       type: string
-      example: "group/milk-group.jpg"
+      example: "/group/milk-group.jpg"
+      - name: amount
+      type: string
+      example: "5 oz"
+      - name: cost
+      type: string
+      example: "$10.50"
