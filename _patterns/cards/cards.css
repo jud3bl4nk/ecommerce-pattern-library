@@ -39,3 +39,7 @@
 .shadow {
   box-shadow: 10px 10px 8px var(--color-grey-border);
 }
+
+.frame {
+  border: solid 10px var(--color-primary-dark);
+}
