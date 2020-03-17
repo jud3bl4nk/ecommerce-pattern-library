@@ -16,4 +16,4 @@ patterns:
       example: "/cream/"
       - name: image
       type: string
-      example: "/images/milk-group-rect.jpg"
+      example: "group/milk-group.jpg"
