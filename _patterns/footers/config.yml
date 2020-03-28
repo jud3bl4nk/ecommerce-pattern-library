@@ -4,5 +4,6 @@ description: |
 
 patterns:
   basic-footer:
+    title: "Basic Footer"
     description: |
       Links within links which lead to pages of links.
