@@ -1,25 +1,148 @@
+title: "Cards"
+description: |
+  These are the site cards.
+
 patterns:
-  cards:
+  prod-card:
+    title: "Prod Card"
+    description: |
+      This is the prod card.
+    fields:
+      - name: button_url
+        type: url
+        example: "/cream/"
+        required: false
+      - name: image
+        type: string
+        example: "/group/milk-group.jpg"
+      - name: heading
+        type: string
+        example: "Milk is Nurishing, The cleaning properties of milk don't lie, 20 day return policy"
+      - name: text
+        type: string
+        example: "There are many examples of this property. Probably they will all have multiple sentences, but that's not a guarantee."
+      - name: amount
+        type: string
+        example: "5 oz"
+      - name: cost
+        type: string
+        example: "$10.50"
+  prod-image:
+    title: "Prod Image"
+    description: |
+      This is the prod image.
+    fields:
+      - name: image
+        type: string
+        example: "/group/milk-group.jpg"
+  prod-info-square:
+    title: "Prod Info Square"
+    description: |
+      This is the prod info square.
     fields:
       - name: heading
-      type: string
-      example: "Milk is Nurishing", The cleaning properties of milk don't lie, 20 day return policy"
+        type: string
+        example: "Milk is a liquid, most of the time"
       - name: text
-      type: string
-      example: "There are many examples of this property. Probably they will all have multiple sentences, but that's not a guarantee."
+        type: string
+        example: "Wow look at this text."
+  prod-text:
+    title: "Prod Text"
+    description: |
+      This is the prod text.
+    fields:
       - name: button_text
-      type: string
-      example: "Shop"
-      required: false
+        type: string
+        example: "Button!"
+        required: false
+      - name: heading
+        type: string
+        example: "Milk comes from cows, and other places. But mostly cows."
+      - name: text
+        type: string
+        example: "And here's some more text; golly gee"
+  drop01:
+    title: "Drop 1"
+    description: |
+      This is drop 1.
+    fields:
+      - name: heading
+        type: string
+        example: "Head....ing"
+      - name: text
+        type: string
+        example: "Let's get textual"
+  drop02:
+    title: "Drop 2"
+    description: |
+      This is drop 2.
+    fields:
+      - name: heading
+        type: string
+        example: "Heading down the highway to hell"
+      - name: text
+        type: string
+        example: "Lorem ipsum suxx"
+  drop03:
+    title: "Drop 3"
+    description: |
+      This is drop 3.
+    fields:
+      - name: heading
+        type: string
+        example: "3 Ways to make a header"
+      - name: text
+        type: string
+        example: "Honestly just listening to kpop; what's new with you?"
+  drop04:
+    title: "Drop 4"
+    description: |
+      This is drop 4.
+    fields:
+      - name: heading
+        type: string
+        example: "Heading to..nowhere"
+      - name: text
+        type: string
+        example: "Because quarantine"
       - name: button_url
-      type: button_url
-      example: "/cream/"
+        type: url
+        example: "/cream/"
+        required: false
+      - name: button_text
+        type: string
+        example: "Click me"
+        required: false
       - name: image
-      type: string
-      example: "/group/milk-group.jpg"
-      - name: amount
-      type: string
-      example: "5 oz"
-      - name: cost
-      type: string
-      example: "$10.50"
+        type: string
+        example: "/group/milk-group.jpg"
+  item-info:
+    title: "Item Info"
+    description: |
+      This is item info.
+    fields:
+      - name: heading
+        type: string
+        example: "It was a"
+      - name: text
+        type: string
+        example: "one eyed one horned flying purple people eater"
+  main02:
+    title: "Main 2"
+    description: |
+      This is main 2.
+    fields:
+      - name: heading
+        type: string
+        example: "Blackpink in your Area"
+      - name: text
+        type: string
+        example: "Kill this love is a dope music video and you should watch it, if that's your thing"
+  main03:
+    title: "Main 3"
+    description: |
+      This is main 3.
+  milk-drop-bg:
+    title: "Milk Drop Background"
+    description: |
+      This is milk drop background. Also, the html is empty?

@@ -25,3 +25,9 @@ patternbot:
         path: _products
       values:
         layout: product
+
+  layouts:
+      default: |
+        The default layout has my site standard header and footer.
+      product: |
+        The product layout has my products page layouts.

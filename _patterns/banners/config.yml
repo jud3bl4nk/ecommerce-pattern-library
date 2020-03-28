@@ -4,10 +4,13 @@ description: |
 
 patterns:
   front-banner:
+    title: "Front Banner"
+    description: |
+      This is my only banner. Wow it's so pretty!
     fields:
       - name: heading
         type: string
-        example: "Brilling, stunning, bright"
+        example: "Brilliant"
       - name: text
         type: string
         example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
@@ -16,5 +19,5 @@ patterns:
         example: "Shop"
         required: false
       - name: button_url
-        type: button_url
+        type: url
         example: "/cream/"

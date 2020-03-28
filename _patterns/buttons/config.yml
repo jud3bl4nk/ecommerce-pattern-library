@@ -7,8 +7,64 @@ patterns:
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
     width: 12em
+    fields:
+      - name: button_url
+        type: url
+        example: "/cream/"
+      - name: button_text
+        type: string
+        example: "Click-a-doodle-doo"
   ghost:
     title: "Ghost"
     description: |
       The ghost button is specifically for banner, where it will be placed in front of busy images.
     background: "--color-tertiary-light"
+    width: 12em
+    fields:
+      - name: url
+        type: url
+        example: "/cream/"
+      - name: button_text
+        type: string
+        example: "Click-clack"
+  company-btn:
+    title: "Company button"
+    description: |
+      This is the company button.
+    width: 12em
+  honey-btn:
+    title: "Honey Button"
+    description: |
+      This is the honey button.
+    width: 12em
+    fields:
+      - name: button_text
+        type: string
+        example: "Sweet!"
+  merch-btn:
+    title: "Merch Button"
+    description: |
+      This is the merch button.
+    width: 12em
+  milk-btn:
+    title: "Milk Button"
+    description: |
+      This is the milk button.
+    width: 12em
+  light:
+    title: "Light"
+    description: |
+      This is the light button.
+    width: 12em
+    fields:
+      - name: url
+        type: url
+        example: "/cream/"
+      - name: button_text
+        type: string
+        example: "Light it up!"
+  magnifier-btn:
+    title: "Magnifier Button"
+    description: |
+      This is the magnifier button. It disappears when you hover over it?
+    width: 12em
