@@ -1,0 +1,39 @@
+title: "Forms"
+description: |
+  These are the site forms.
+
+patterns:
+  simple-input-simple:
+    title: "Simple Input"
+    description: |
+      This is the simple input.
+  simple-input-error:
+    title: "Simple Input Error"
+    description: |
+      This is the simple input error.
+  check-box:
+    title: "Check box"
+    description: |
+      This is the check box.
+  date:
+    title: "Date"
+    description: |
+      This is the date.
+  item-form:
+    title: "Date"
+    description: |
+      This HTML file has two button_url's!
+    fields:
+      - name: heading
+        type: string
+        example: "Form Section"
+      - name: text
+        type: string
+        example: "Stan A.C.E"
+      - name: button_url
+        type: url
+        example: "/cream/"
+        required: false
+      - name: button_text
+        type: string
+        example: "Button Text"
