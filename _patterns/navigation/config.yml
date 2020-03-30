@@ -1,0 +1,59 @@
+title: "Navigation"
+description: |
+  Navigation is used to navigate through the pages of a website.
+
+patterns:
+  breadcrubs:
+    title: "breadcrubs"
+    description: |
+      Should probably be on my navbar but....
+    fields:
+      - name: heading
+        type: string
+        example: "Brilliant"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: url
+        example: "/cream/"
+  filter:
+    title: "filter"
+    description: |
+      The front page filter
+    fields:
+      - name: heading
+        type: string
+        example: "Brilliant"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: url
+        example: "/cream/"
+  pagination:
+    title: "pagination"
+    description: |
+      page number mover
+    fields:
+      - name: heading
+        type: string
+        example: "Brilliant"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: url
+        example: "/cream/"

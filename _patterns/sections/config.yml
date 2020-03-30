@@ -18,3 +18,123 @@ patterns:
       - name: button_url
         type: button_url
         example: "/cream/"
+  honey-info:
+    fields:
+      - name: heading
+        type: string
+        example: "Brilling, stunning, bright"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: button_url
+        example: "/cream/"
+  merch-info:
+    fields:
+      - name: heading
+        type: string
+        example: "Brilling, stunning, bright"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: button_url
+        example: "/cream/"
+  honey-prod-list:
+    fields:
+      - name: heading
+        type: string
+        example: "Brilling, stunning, bright"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: button_url
+        example: "/cream/"
+  merch-prodlist:
+    fields:
+      - name: heading
+        type: string
+        example: "Brilling, stunning, bright"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: button_url
+        example: "/cream/"
+  milk-prod-list:
+    fields:
+      - name: heading
+        type: string
+        example: "Brilling, stunning, bright"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: button_url
+        example: "/cream/"
+  order-quantity:
+    fields:
+      - name: heading
+        type: string
+        example: "Brilling, stunning, bright"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: button_url
+        example: "/cream/"
+  prod-page-overview:
+    fields:
+      - name: heading
+        type: string
+        example: "Brilling, stunning, bright"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: button_url
+        example: "/cream/"
+  prod-square-section:
+    fields:
+      - name: heading
+        type: string
+        example: "Brilling, stunning, bright"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes, and much more!"
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: button_url
+        example: "/cream/"

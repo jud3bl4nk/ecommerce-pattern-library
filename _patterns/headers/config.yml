@@ -1,0 +1,17 @@
+title: "Headers"
+description: |
+  A header is a piece of call-to-action that exhists at the begining of webpage.
+
+  patterns:
+    navbar:
+      title: "navbar"
+      description: |
+        This is my only header. Wow it's so pretty!
+      fields:
+      - name: button_text
+        type: string
+        example: "Shop"
+        required: false
+      - name: button_url
+        type: url
+        example: "/cream/"
